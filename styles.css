@@ -1,11 +1,18 @@
-body {
+
+  body {
     background-image: url("Images/pinterest1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    
   }
-
-ul.navbar {
+ 
+  .container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul.navbar {
     list-style-type: none;
     display: flex;
     gap: 100px;
@@ -22,13 +29,13 @@ ul.navbar {
     display: block;
     color: white;
     text-align: center;
-    font-size: 25PX;
+    font-size: 25px;
     padding: 14px 16px;
     text-decoration: none;
     margin-top: 20px;
-
   }
-  #logo img{
+  
+  #logo img {
     max-height: 200px;
     max-width: 90px;
   }
@@ -36,9 +43,11 @@ ul.navbar {
   ul.navbar li.signup-btn {
     margin-left: auto;
   }
-  #about{
+  
+  #about {
     margin-left: 110px;
   }
+  
   ul.navbar li.signup-btn a {
     background-color: #da139899;
     border-radius: 20px;
@@ -53,9 +62,61 @@ ul.navbar {
     margin-right: 30px;
     margin-top: 20px;
   }
-  .description{
+  
+  .description {
     color: rgba(245, 245, 220, 0.897);
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
+  .helping_hands {
+    background-image: url("Images/hands.png");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 80vw;
+    background-position: right;
+    background-size: contain;
+  }
+  
+  ul.footer {
+    padding: 20px;
+    margin-top: auto;
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    background-color: rgba(0, 0, 255, 0.434);
+    border-radius: 30px;
+    overflow: hidden;
+
+  }
+  ul.footer li a{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  #return{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    ul.navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    ul.navbar li.signup-btn a {
+      font-size: 16px;
+    }
+  }
+   

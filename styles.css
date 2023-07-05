@@ -1,3 +1,10 @@
+body {
+    background-image: url("Images/pinterest1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
 ul.navbar {
     list-style-type: none;
     display: flex;
@@ -18,6 +25,8 @@ ul.navbar {
     font-size: 25PX;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top: 20px;
+
   }
   #logo img{
     max-height: 200px;
@@ -29,8 +38,6 @@ ul.navbar {
   }
   #about{
     margin-left: 110px;
-
-
   }
   ul.navbar li.signup-btn a {
     background-color: #da139899;
@@ -44,4 +51,11 @@ ul.navbar {
     margin: 8px 4px;
     cursor: pointer;
     margin-right: 30px;
+    margin-top: 20px;
   }
+  .description{
+    color: rgba(245, 245, 220, 0.897);
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  

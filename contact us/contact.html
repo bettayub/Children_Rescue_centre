@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 and JavaScript Contact Form</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="/contact us/contact.css" rel="stylesheet">
+</head>
+
+<body>
+	<li><a href="/index.html">HOME</a></li>
+            <li><a href="/contact us/contact.html">CONTACT US</a></li>
+            <li id="logo"><img src="/Images/help2-removebg-preview.png" alt="Logo"></li>
+            <li><a href="/about.html" id="about">ABOUT US</a></li>
+            <li class="signup-btn"><a href="/signup.Assets/signin.html">SIGN IN</a></li>
+        </ul>
+	
+	<div class="wrapper">
+		<div id="main" style="padding:50px 0 0 0;">
+		
+		<!-- Form -->
+		<form id="contact-form" action="/" method="post">
+			<h3>Contact us</h3>
+			<h4>Fill in the form below, and we'll get back to you within 24 hours.</h4>
+			<div>
+				<label for="vName">
+					<span>Name: (required)</span>
+					<input id="vName" placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+				</label>
+			</div>
+			<div>
+				<label for="vDate">
+					<span>Date: (required)</span>
+					<input id="vDate" placeholder="Please enter your name" type="date" tabindex="2" required autofocus>
+				</label>
+			</div>
+			<div>
+				<label for="vEmail">
+					<span>Email: (required)</span>
+					<input id="vEmail" placeholder="Please enter your email address" type="email" tabindex="3" required>
+				</label>
+			</div>
+			<div>
+				<label for="vTelephone">
+					<span>Telephone: (required)</span>
+					<input id="vTelephone" placeholder="Please enter your number" type="tel" tabindex="4" required>
+				</label>
+			</div>
+			<div>
+				<label for "vMessage">
+					<span>Message: (required)</span>
+					<textarea id="vMessage" placeholder="Include all the details you can" tabindex="5" required></textarea>
+				</label>
+			</div>
+			<div>
+				<button onclick="resetForm()" name="reset" type="reset" id="contact-reset">Reset</button>
+			</div>
+			<div>
+				<button onclick="validateForm() && submitForm()" name="submit" type="submit" id="contact-submit">Send Email</button>
+			</div>
+		</form>
+		<!-- /Form -->
+		
+		</div>
+	</div>
+
+	<script src="/contact us/contact.js"></script>
+	
+</body>
+</html>

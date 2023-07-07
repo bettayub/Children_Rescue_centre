@@ -73,3 +73,53 @@ body {
     outline: none;
   }
   
+  ul.navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    background-color:rgb(112, 112, 214);
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  ul.navbar li {
+    display: inline;
+  }
+  
+  ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  #logo img {
+    max-height: 200px;
+    max-width: 90px;
+  }
+  
+  ul.navbar li.signup-btn {
+    margin-left: auto;
+  }
+
+  #about {
+    margin-left: 110px;
+  }
+  
+  ul.navbar li.signup-btn a {
+    background-color: #da139899;
+    border-radius: 20px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 20px;
+  }

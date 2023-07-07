@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(230, 225, 235);
+  }
+  
+  .contribution {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #71d1d7;
+  }
+  
+  .contribution-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contribution-details {
+    margin-bottom: 10px;
+  }
+  
+  .contribution-details > div {
+    margin-right: 10px;
+  }
+  
+  .contribution-details > div span {
+    font-weight: bold;
+  }
+  
+  .contribution-message {
+    font-style: italic;
+  }
+  

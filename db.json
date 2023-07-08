@@ -2,27 +2,27 @@
     "contributions": [
       {
         "id": 1,
-        "names": ["John Doe", "Jane Smith"],
+        "names": ["Bett Ayub", "Jane Smith"],
         "amount": 50,
         "date": "2023-07-01",
         "paymentMethod": "Credit Card",
-        "email": "johndoe@example.com",
+        "email": "bettayub@example.com",
         "message": "Keep up the great work!",
         "role": "Member"
       },
       {
         "id": 2,
-        "names": ["Alice Johnson"],
+        "names": ["Samuel Maingi"],
         "amount": 100,
         "date": "2023-07-02",
         "paymentMethod": "PayPal",
-        "email": "alicejohnson@example.com",
+        "email": "layersony@example.com",
         "message": "Happy to contribute!",
         "role": "NGO"
       },
       {
         "id": 3,
-        "names": ["Mike Johnson", "Sara Thompson"],
+        "names": ["Isaack Mogaka"],
         "amount": 75,
         "date": "2023-07-03",
         "paymentMethod": "Bank Transfer",
@@ -32,7 +32,7 @@
       },
       {
         "id": 4,
-        "names": ["Emily Davis"],
+        "names": ["Naomi Cherono"],
         "amount": 200,
         "date": "2023-07-04",
         "paymentMethod": "Venmo",
@@ -42,7 +42,7 @@
       },
       {
         "id": 5,
-        "names": ["Robert Brown", "Jennifer Lee"],
+        "names": ["Ken Rotich"],
         "amount": 150,
         "date": "2023-07-05",
         "paymentMethod": "Credit Card",
@@ -52,7 +52,7 @@
       },
       {
         "id": 6,
-        "names": ["David Johnson"],
+        "names": ["Faith Chepkoech"],
         "amount": 80,
         "date": "2023-07-06",
         "paymentMethod": "PayPal",
@@ -62,7 +62,7 @@
       },
       {
         "id": 7,
-        "names": ["Karen Thompson"],
+        "names": ["Sir Titus"],
         "amount": 120,
         "date": "2023-07-07",
         "paymentMethod": "Bank Transfer",
@@ -72,7 +72,7 @@
       },
       {
         "id": 8,
-        "names": ["Daniel Smith", "Sophia Johnson"],
+        "names": ["Sam Bett", "Sophia Johnson"],
         "amount": 90,
         "date": "2023-07-08",
         "paymentMethod": "Venmo",
@@ -82,7 +82,7 @@
       },
       {
         "id": 9,
-        "names": ["Olivia Davis"],
+        "names": ["Micah Barasa"],
         "amount": 60,
         "date": "2023-07-09",
         "paymentMethod": "Credit Card",
@@ -92,7 +92,7 @@
       },
       {
         "id": 10,
-        "names": ["Emma Wilson", "Liam Taylor"],
+        "names": ["Amos Kipkoech", "Liam Taylor"],
         "amount": 180,
         "date": "2023-07-10",
         "paymentMethod": "PayPal",

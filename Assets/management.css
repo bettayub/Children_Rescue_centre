@@ -5,7 +5,13 @@
     margin: 0 auto;
     background-color: rgb(230, 225, 235);
   }
+  .column-layout {
+    display: flex;
+  }
   
+  .column {
+    flex-basis: 50%;
+  }
   .contribution {
     flex-basis: 100%;
     margin-bottom: 20px;

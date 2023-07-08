@@ -3,60 +3,49 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
+	margin:0;
+	padding:0;
+	background: url("/Images/nature.jpg") no-repeat center center fixed;
+	background-size: cover;
+	
+	
 }
-body {
-	font:400 12px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#444;
-	background:#991D57;
-	background-image:linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
-	background-image:-moz-linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
-	background-image:-webkit-linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
-}
+
 .wrapper {
 	max-width:500px;
 	width:95%;
 	margin:0 auto;
 	position:relative;
+	
+
+	
 }
-#contact-form input[type="text"],
-#contact-form input[type="date"],
-#contact-form input[type="email"],
-#contact-form input[type="tel"],
-#contact-form textarea,
-#contact-form button[type="submit"],[type="reset"] {
-	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 #contact-form {
-	text-shadow:0 1px 0 #FFF;
-	border-radius:4px;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	background:#F9F9F9;
+	text-shadow:0 1px 0 #FFF;	
+	-webkit-border-radius:10px;
+	background:#0fe7e074;
 	padding:25px;
 }
 #contact-form h3 {
-	color:#991D57;
+	color:#f5eef1;
 	display:block;
-	font-size:28px;
+	font-size:30px;
+	text-align: center;
 }
 #contact-form h4 {
 	margin:5px 0 15px;
 	display:block;
-	font-size:13px;
+	font-size:18px;
+	color: white;
 }
 #contact-form label span {
 	cursor:pointer;
-	color:#991D57;
+	color:rgba(255, 255, 255, 0.414);
 	display:block;
 	margin:5px 0;
-	font-weight:900;
+	font-weight:bold;
+	font-size: 20px;
 }
 #contact-form input[type="text"],
 #contact-form input[type="date"],
@@ -64,76 +53,33 @@ body {
 #contact-form input[type="tel"],
 #contact-form textarea {
 	width:100%;
-	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	border:1px solid #CCC;
-	background:#FFF;
+	background:whitesmoke;
 	margin:0 0 5px;
 	padding:10px;
 	border-radius:5px;
 }
-#contact-form input[type="text"]:hover,
-#contact-form input[type="date"]:hover,
-#contact-form input[type="email"]:hover,
-#contact-form input[type="tel"]:hover,
-#contact-form textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
-}
+
 #contact-form textarea {
 	height:100px;
 	max-width:100%;
 }
 #contact-form button[type="submit"],[type="reset"] {
 	cursor:pointer;
-	width:100%;
-	border:none;
+	width:70%;
 	background:#991D57;
-	background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
-	background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
-	background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
 	border-radius:5px;
-}
-#contact-form button[type="submit"],[type="reset"]:hover {
-	background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
-}
-#contact-form button[type="submit"],[type="reset"]:active {
-	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
-}
-#contact-form input:focus,
-#contact-form textarea:focus {
-	outline:0;
-	border:1px solid #999;
-}
-::-webkit-input-placeholder {
-    color:#888;
-}
-:-moz-placeholder {
-    color:#888;
-}
-::-moz-placeholder {
-    color:#888;
-}
-:-ms-input-placeholder {
-    color:#888;
-}
+	margin-left: 60px;
 
+	
+}
 ul.navbar {
     list-style-type: none;
     display: flex;
     gap: 100px;
-    background-color:rgb(112, 112, 214);
+    background-color:rgb(23, 88, 191);
     border-radius: 30px;
     overflow: hidden;
   }
@@ -179,3 +125,4 @@ ul.navbar {
     margin-right: 30px;
     margin-top: 20px;
   }
+  

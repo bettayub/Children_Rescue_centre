@@ -73,6 +73,34 @@
     background-position: right;
     background-size: contain;
   }
+
+  #donateButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 30px;
+}
+#donateButton2 {
+  background-color: blue;
+  color: white;
+  border: aliceblue;
+  margin-left: 50px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-sizing:border-box;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
   .footer{
     margin-top: 830px;
   }

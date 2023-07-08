@@ -80,6 +80,7 @@ body {
     background-color:rgb(112, 112, 214);
     border-radius: 30px;
     overflow: hidden;
+    height: 90px;
   }
   
   ul.navbar li {

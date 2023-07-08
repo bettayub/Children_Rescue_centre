@@ -83,6 +83,60 @@ p {
     height: auto;
 }
 .goals li {
-    color:rgb(27, 130, 168);
-    font-size: 20px;
+  color:white;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.services {
+  margin-top: 30px;
+}
+
+.services h2 {
+  color: #e432c6;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services p {
+  color:white;
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: bold
+}
+
+.footer{
+  margin-top: 0px;
+}
+
+ul.footer {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+  background-color:rgb(112, 112, 214);
+  border-radius: 30px;
+  overflow: hidden;
+}
+ul.footer li a{
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#return{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#rights{
+  color: white;
+  font-size: 25px;
+}
+#backtotop{
+  color:orangered;
 }
